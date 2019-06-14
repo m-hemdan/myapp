@@ -1,0 +1,24 @@
+<template>
+  <div>
+    <v-alert
+      @input="onclosed"
+      dismissible
+      type="error"
+      :value="true"
+    >
+     {{text}}
+    </v-alert>
+    </div>
+</template>
+<script>
+export default {
+   props:['text'],
+    methods:
+    {
+        onclosed()
+        {
+            this.$emit('dismissed')
+        }
+    }
+}
+</script>
