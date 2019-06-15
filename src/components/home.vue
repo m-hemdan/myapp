@@ -39,7 +39,7 @@
     </v-layout>
     <v-layout row wrap class="mt-2">
         <v-flex xs12  class="text-xs-center">
-        <p>join our awesom meetup</p>
+        <p>join our awesom meetup ok</p>
         </v-flex>
     </v-layout>
 </v-container>
